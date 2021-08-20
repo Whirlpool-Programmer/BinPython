@@ -18,11 +18,13 @@ binpython.exe --python [python-file]
 ```
 ^^ this converts python into binpython
 <hr>
+
 ```
 binpython.exe -e [binpython file]
 ```
 ^^ this converts (exports) binpython to python
 <hr>
+
 ```
 binpython.exe -o [binpython file]
 ```
@@ -31,6 +33,7 @@ binpython.exe -o [binpython file]
 
 # BINPYTHON RULES:
 All characters other than 0 and 1 are ignored and are comments
+
 All codes are python codes converted into its binary equivalent
 
 <hr>
